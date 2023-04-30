@@ -1,0 +1,106 @@
+body{
+    margin: 100px 150px;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to bottom, red, yellow);
+}
+
+.informations,
+.containerInfo, h1 {
+   display: inline-block;
+}
+
+.perfil{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 70px;
+}
+.containerInfo, p{
+    margin: -5px 0px;
+    padding: 0px;
+}
+
+
+img, .link {
+    display: inline-block;
+    vertical-align: sub;
+    height: 25px;
+    width: 25px;
+    margin: 1px;
+}
+.obj{
+    line-height: 1.2;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+.experience p{
+    margin-bottom: 8px;
+}
+
+.dateCargo{
+    padding: 25px 0px;
+
+}
+
+@media screen and (max-width: 601px) {
+    body{
+        margin: 80px;
+    background-image: linear-gradient(to bottom, rgb(0, 60, 255), rgb(0, 255, 217));
+
+    }
+    .name{
+        margin-bottom: 30px;
+    }
+    .perfil{
+        display: none;
+    }
+    img, .link{
+        margin-right: 8px;
+    }
+    .obj{
+        line-height: 1.4;
+    }
+    li{
+        line-height: 1.4;
+
+    }
+    .dateCargo{
+        padding: 10px 0px;
+    
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px){
+    body{
+        margin: 35px;
+        background-image: linear-gradient(to bottom, rgb(64, 255, 0), rgb(6, 90, 51));
+
+    }
+    .obj{
+        margin: 10px 0px;
+        line-height: 1.2;
+    }
+}
+@media screen and (max-width: 400px){
+    body{
+        margin: 14px;
+        background-image: linear-gradient(to bottom, rgb(83, 3, 6), rgb(155, 6, 6));
+        color: rgb(194, 198, 202);
+    }
+    .obj{
+        margin: 10px 0px;
+        line-height: 1.4;
+    }
+
+    .dateCargo p{
+        line-height: 1.4px;
+    }
+}
+
+

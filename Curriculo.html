@@ -2,27 +2,41 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <style type="text/css"></style>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" type="image/x-icon" href="img/favStack.png">
         <title>Curriculo</title>
     </head>
     <body>
         <main>
-            <div>
-                <section>
-                    <h1>Paulo César da Costa Vieira</h1>
-                    <p><strong>Endereço: </strong><span>Rua Arcanjo Antônio Henrique 283</span><br>
-                    <strong>Cidade: </strong><span>Biguaçu</span><br>
-                    <strong>Estado: </strong><span>SC</span><br>
-                    <strong>Cep: </strong><span>88160-770</span><br>
-                    <strong>Telefone: </strong><span>48 984095744</span><br>
-                    <strong>E-mail: </strong><span>Paulo_vieira22@hotmail.com</span></p><br>
-                    <br>
+            <div class="container">
+                <section class="sectionTop">
+                    <div class="informations">
+                        <img class="perfil" src="img/fotoDePerfil.jpg" alt="foto de perfil">
+                    </div>
+                    <div class="containerInfo">
+                        <h1 class="name">Paulo César da Costa Vieira</h1>
+                        <p><strong>Endereço: </strong><span>Rua Arcanjo Antônio Henrique 283</span></p><br>
+                        <p><strong>Cidade: </strong><span>Biguaçu</span></p><br>
+                        <p><strong>Estado: </strong><span>SC</span></p><br>
+                        <p><strong>Cep: </strong><span>88160-770</span></p><br>
+                        <p><strong>Telefone: </strong><span>48 984095744</span></p><br>
+                        <p><strong>E-mail: </strong><span>Paulo_vieira22@hotmail.com</span></p><br>
+                        <p><strong>Minhas redes sociais:</strong>
+                        <a class="link" href="https://www.linkedin.com/in/paulo-cesar-da-costa-vieira/" target="_blank">
+                            <img src="img/linkedin.jpg" alt="linkedin" >
+                        </a>
+                        <a class="link" href="https://www.facebook.com/paulo.cesar.98031/" target="_blank">
+                            <img src="img/facebook.png" alt="facebook" >
+                        </a>
+                        <a class="link" href="https://www.instagram.com/paulocevier/" target="_blank">
+                            <img src="img/instagram.png" alt="instagram" >
+                        </a></p>
+                    </div>
                 </section>
                 <hr>
-
                 <h3>Objetivo</h3>     
-                <p>Ser um desenvolvedor Full Stack, buscando soluções e inovações utilizando raciocínio lógico e linguagem de programação. <br>
+                <p class="obj">Ser um desenvolvedor Full Stack, buscando soluções e inovações utilizando raciocínio lógico e linguagem de programação. <br>
                 Buscar sempre conhecimento para agregar na área de atuação e empresa.
                 </p>
                 <br>
@@ -33,15 +47,17 @@
                     </li>
                     <li>Especialização em Desenvolvimento de software - StackX- 2022
                 </ul> 
-                <h3>Experiência</h3> 
-                
-                <p>Cargo atual</p>
-                <p>Suporte HelpDesk - Desbravador - Florianópolis</p>
-                <p>Suporte e consultoria para sistemas de hotelaria</p>
+                <section class="experience">
+                    <h3>Experiência</h3> 
+                    
+                    <p class="dateCargo"><strong>Cargo atual</strong></p>
+                    <p>Suporte HelpDesk - Desbravador - Florianópolis</p>
+                    <p>Suporte e consultoria para sistemas de hotelaria</p>
 
-                <p>2021 - 2022</p>
-                <p>Expedição - Jamef Transportes - Biguaçu</p>
-                <p>Emissão de conhecimento de notas fiscais e monitoramento de frota</p>
+                    <p class="dateCargo"><strong>2021 - 2022</strong></p>
+                    <p>Expedição - Jamef Transportes - Biguaçu</p>
+                    <p>Emissão de conhecimento de notas fiscais e monitoramento de frota</p>
+                </section>
             </div>
         </main>    
     </body>
